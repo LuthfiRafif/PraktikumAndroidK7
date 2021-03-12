@@ -8,9 +8,8 @@ import com.barcoding.praktikumandroidk7.model.User
 import com.barcoding.praktikumandroidk7.network.Api
 import kotlinx.coroutines.launch
 
-class UserViewModel :ViewModel() {
-
-    private  val _response = MutableLiveData<User>()
+class UserViewModel : ViewModel() {
+    private val _response = MutableLiveData<User>()
 
     val response: LiveData<User>
         get() = _response
