@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.response.observe(this, {
             binding.progressBar.visibility = View.INVISIBLE
-            binding.tvMainActivity.text = it.data[1].first_name
+            binding.tvMainActivity.text = it.data[1].last_name
         })
 
     }
