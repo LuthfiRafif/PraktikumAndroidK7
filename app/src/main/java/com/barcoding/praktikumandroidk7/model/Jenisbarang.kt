@@ -14,3 +14,9 @@ data class JenisbarangData(
         @field:Json(name = "@namajenisbarang")
         val namajenisbarang: String
 )
+
+data class JenisbarangResponse(
+        val success: Boolean,
+        val data : JenisbarangData,
+        val message: String
+)

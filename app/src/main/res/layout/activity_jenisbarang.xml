@@ -7,6 +7,13 @@
     android:orientation="vertical"
     tools:context=".ui.jenisbarang.JenisbarangActivity">
 
+    <Button
+        android:id="@+id/btTambahJenisbarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah"
+        />
+
     <ProgressBar
         android:id="@+id/progressBarJenisbarang"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
